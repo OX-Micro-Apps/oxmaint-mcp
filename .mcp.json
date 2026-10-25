@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "oxmaint": {
+      "type": "http",
+      "url": "https://mcp.oxmaint.ai/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${OXMAINT_MCP_API_KEY}"
+      }
+    }
+  }
+}
